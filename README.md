@@ -21,15 +21,15 @@ pip install apache-airflow
 airflow db init
 airflow webserver --port 8080
 
-2. Create a DAG for Spotify ETL:
+### 2. Create a DAG for Spotify ETL:
 Check **Dag Spotify_etl.py and spotify_dag.py** files
 
-3. Running the DAG
+### 3. Running the DAG
 
     After setting up Airflow, log in to the Airflow webserver.
     Activate the DAG for Spotify ETL.
     Monitor and manage the pipeline as it runs.
 
-Conclusion
+### Conclusion
 
 This pipeline automates the process of extracting data from the Spotify API and loading it into AWS S3, enabling you to work with real-time data efficiently.

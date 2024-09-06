@@ -20,6 +20,7 @@ pip install apache-airflow
 # Start Airflow
 airflow db init
 airflow webserver --port 8080
+```bash
 
 ### 2. Create a DAG for Spotify ETL:
 Check **Dag Spotify_etl.py and spotify_dag.py** files

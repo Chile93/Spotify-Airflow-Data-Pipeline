@@ -32,9 +32,11 @@ def run_spotify_new_releases_etl():
 
     # Convert to DataFrame and save to CSV
     df = pd.DataFrame(new_releases_list)
-    df.to_csv("spotify_new_releases.csv", index=False)
+    # df.to_csv("spotify_new_releases.csv", index=False)
+    df.to_csv("s3://spotify-etl-project9613/spotify_new_releases.csv")
+    
 
 # Run the ETL function
-run_spotify_new_releases_etl()
+# run_spotify_new_releases_etl()
 
 

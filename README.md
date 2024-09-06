@@ -25,8 +25,8 @@ airflow webserver --port 8080
 
 Check the spotify_etl.py and spotify_dag.py files in this repository. These files contain the DAG setup for extracting data from the Spotify API and uploading it to an S3 bucket. Here's a quick overview:
 
-    **spotify_etl.py**: Handles the Spotify API call and processes the extracted data.
-    **spotify_dag.py**: Defines the Airflow DAG that schedules the tasks for extraction and loading.
+    spotify_etl.py: Handles the Spotify API call and processes the extracted data.
+    spotify_dag.py: Defines the Airflow DAG that schedules the tasks for extraction and loading.
 
 ### 3. Running the DAG
 

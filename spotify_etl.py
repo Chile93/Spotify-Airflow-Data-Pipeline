@@ -7,8 +7,8 @@ from datetime import datetime
 
 def run_spotify_new_releases_etl():
     # Set your Spotify API credentials
-    client_id = "f2b8b0706cab4a848e2eaa708c3fdc6b"
-    client_secret = "f2df35e06a4a431d92b5dd6eead40840"
+    client_id = "your Spotify ID"
+    client_secret = "your Spotify secret key"
 
     # Authentication - Without user
     auth_manager = SpotifyClientCredentials(client_id=client_id, client_secret=client_secret)

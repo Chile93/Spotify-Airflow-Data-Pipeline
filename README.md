@@ -36,6 +36,10 @@ After setting up Airflow:
     Activate the DAG for Spotify ETL.
     Monitor and manage the pipeline as it runs.
 
+
+## Architecture 
+<img src="Architecture.jpg">
+
 ### Conclusion
 
 This pipeline automates the process of extracting data from the Spotify API and loading it into AWS S3, enabling you to work with real-time data efficiently.
